@@ -13,7 +13,7 @@ namespace CSExercises
             double x, y;
             Console.Write("Pls enter the value of x ");
             x = Convert.ToDouble(Console.ReadLine());
-            y = (2 * Math.Sqrt(x)) + (4 * x) + 3;
+            y = (2 * Math.Pow((x),2)) - (4 * x) + 3;
 
             Console.WriteLine("The value of y {0}  ", y);
             Console.ReadLine();
